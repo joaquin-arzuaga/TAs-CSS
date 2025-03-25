@@ -1,0 +1,19 @@
+p {
+    color: red;
+
+}
+
+p#tercerElemento {
+    font-size: 24px;
+}
+
+.firstDiv{
+    color: blue;
+    font-size: 32px;
+}
+
+.secondDiv{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
