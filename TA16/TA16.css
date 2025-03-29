@@ -1,35 +1,50 @@
-@media only screen and (min-width: 1440px) {
+body {
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 24px;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
     body {
-        background-color: red;
+      background-color: green;
     }
+  
     p {
-        size: 24px;
+      font-size: 18px;
     }
+  
     img {
-        width: 50%;
+      width: 70%;
     }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 425px) {
+  }
+  
+  @media (max-width: 425px) {
     body {
-        background-color: green;
+      background-color: blue;
     }
+  
     p {
-        size: 18px;
+      font-size: 14px;
     }
+  
     img {
-        width: 70%;
+      width: 100%;
     }
-}
-
-@media only screen and (max-width: 425px) and (min-width: 0px) {
-    body {
-        background-color: blue;
-    }
-    p {
-        size: 14px;
-    }
-    img {
-        width: 100%;
-    }
-}
+  }
+  
